@@ -10,19 +10,14 @@
 
     <style>
     
-    *, *::before, *::after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+    * {
+      box-sizing: border-box;
     }
 
-    
     body {
-        margin: 0;
-        padding-top: 3rem;
-        overflow-x: hidden;
-        max-width: 100%;
-}
+      margin: 0;
+      overflow-x: hidden;
+    }
 
     .inter {
         font-family: 'Inter', sans-serif;
@@ -32,10 +27,14 @@
         font-family: 'Noto Serif', serif;
     }
 
+    .orange{
+        color: #E95A08;
+    }
+
     </style>
 </head>
 <body>
-    <nav class="flex md:flex-row md:mx-auto justify-around items-center gap-48 md:gap-96">
+    <nav class="mt-8 mb-[7.5rem] flex md:flex-row md:mx-auto justify-around items-center gap-40 md:gap-96">
         <div>
             <img src="./assets/logo.png" alt="Flower Shop Logo">
         </div>
@@ -48,8 +47,73 @@
             <h4 class="text-[#000000] flex justify-center items-center"><img src="./assets/shopping-cart.png" alt="Cart">Cart</h4>
         </div>
     </nav>
-    <header>
-
+    <header class="mb-[7.5rem] ml-auto mr-auto flex flex-col-reverse md:flex-row justify-center items-center gap-[1.75rem] md:gap-16">
+        <div>
+            <h1 class="noto-serif font-bold text-[1.5rem] mb-[0.8rem] md:text-[4.0625rem]"><span>ALWAYS</span> <span class="orange">FRESH</span><br><span class="orange">FLOWERS</span></h1>
+            <h3 class="inter text-black/50 text-[0.9rem] md:text-[1.375rem] font-normal">Indulge your senses with the beauty and fragrance of <br>our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of fresh flowers that <br>are perfect for any occasion.</h3>
+        </div>
+        <div>
+            <img src="./assets/hero-flower.png" alt="Flowers">
+        </div>
     </header>
+    <section class="mb-[13.125rem] ml-[0.875rem] md:ml-auto mr-[0.875rem] md:mr-auto flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center gap-[1rem] mb-[3.125rem] text-center">
+            <h1 class="noto-serif font-bold text-[1.5625rem] md:text-[3.125rem] text-[#000000]"><span class="orange">Our</span> Plants</h1>
+            <h3 class="inter md:max-w-[55.5rem] text-black/50 text-[0.875rem] md:text-[1.375rem] font-normal">Indulge your senses with the beauty and <br class="md:hidden">fragrance of our fresh flower shop. From classic <br class="md:hidden">roses to exotic blooms, we offer a wide variety of <br class="md:hidden">fresh.</h3>
+
+        </div>
+        <div class="inter grid grid-cols-2 md:grid-cols-4 grid-rows-4 md:grid-rows-2 gap-y-8 gap-x-4">
+            <!-- First Row -->
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <!-- Second Row -->
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
+                <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
+                <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
+                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
