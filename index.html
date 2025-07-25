@@ -31,6 +31,14 @@
         color: #E95A08;
     }
 
+    .header-h1{
+        font-size: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    .header-h3{
+        font-size: clamp(0.875rem, 2.5vw, 1.375rem);
+    }
+
     .bloom-plant{
         background-image: url(./assets/deal-bloom.png);
         background-repeat: no-repeat;
@@ -69,8 +77,14 @@
     </nav>
     <header class="mb-[7.5rem] ml-auto mr-auto flex flex-col-reverse md:flex-row justify-center items-center gap-[1.75rem] md:gap-16">
         <div>
-            <h1 class="noto-serif font-bold text-[1.5rem] mb-[0.8rem] md:text-[4.0625rem]"><span>ALWAYS</span> <span class="orange">FRESH</span><br><span class="orange">FLOWERS</span></h1>
-            <h3 class="inter text-black/50 text-[0.9rem] md:text-[1.375rem] font-normal">Indulge your senses with the beauty and fragrance of <br>our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of fresh flowers that <br>are perfect for any occasion.</h3>
+            <h1 class="noto-serif header-h1 font-bold mb-[0.8rem]"><span>ALWAYS</span> <span class="orange">FRESH</span><br><span class="orange">FLOWERS</span>
+            </h1>
+            <h3 class="inter header-h3 text-black/50 font-normal">
+                Indulge your senses with the beauty and fragrance of <br/>
+                our fresh flower shop. From classic roses to exotic <br/>
+                blooms, we offer a wide variety of fresh flowers that <br/>
+                are perfect for any occasion.
+            </h3>
         </div>
         <div class="w-screen md:w-auto">
             <img src="./assets/hero-flower.png" alt="Flowers" class="w-full h-auto md:w-auto md:h-auto"/>
