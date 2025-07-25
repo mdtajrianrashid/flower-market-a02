@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fauget Flower Shop</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
     <style>
     
     * {
@@ -38,6 +38,22 @@
     .header-h3{
         font-size: clamp(0.875rem, 2.5vw, 1.375rem);
     }
+    .add-to-cart-button{
+        background-color: #E95A08;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 100%;
+        height: 3.125rem;
+        margin-top: 1.875rem;
+        border: none;
+        cursor: pointer;
+        transition: background 0.4s ease, transform 0.2s ease;
+    }
+    .add-to-cart-button:hover{
+        background: linear-gradient(90deg, #ff5f6d, #ffc371);
+        transform: scale(1.03);
+    }
 
     .bloom-plant{
         background-image: url(./assets/deal-bloom.png);
@@ -64,15 +80,15 @@
 <body>
     <nav class="mt-[1.875rem] mb-7 md:mb-[7.5rem] flex md:flex-row ml-[0.875rem] md:ml-auto mr-[0.875rem] md:mr-auto justify-around items-center gap-40 md:gap-96">
         <div>
-            <img src="./assets/logo.png" alt="Flower Shop Logo">
+            <a href="./assets/logo.png" target="_blank"><img src="./assets/logo.png" alt="Flower Shop Logo"></a>
         </div>
         <div class="inter flex justify-center items-center gap-12">
             <div class="hidden md:flex gap-12">
-                <h4 class="text-[#252432] font-bold">Home</h4>
-                <h4 class="text-[#8987A1]">Shop</h4>
-                <h4 class="text-[#8987A1]">About us</h4>
+                <a href="https://www.proflowers.com/" target="_blank"><h4 class="text-[#252432] font-bold">Home</h4></a>
+                <a href="https://www.proflowers.com/best-sellers-bsa?q=&cid=pfseo&prid=followdts" target="_blank"><h4 class="text-[#8987A1]">Shop</h4></a>
+                <a href="https://www.proflowers.com/about-us?cid=pfseo&prid=followdts" target="_blank"><h4 class="text-[#8987A1]">About us</h4></a>
             </div>
-            <h4 class="text-[#000000] flex flex-row gap-2.5 justify-center items-center"><img src="./assets/shopping-cart.png" alt="Cart">Cart</h4>
+            <a href="https://www.vinsolutions.com/wp-content/uploads/sites/2/vinsolutions/media/Vin-Images/news-blog/Empty_Shopping_Cart_blog.jpg" target="_blank"><h4 class="text-[#000000] flex flex-row gap-2.5 justify-center items-center"><img src="./assets/shopping-cart.png" alt="Cart">Cart</h4></a>
         </div>
     </nav>
     <header class="mb-0 md:mb-[7.5rem] ml-auto mr-auto flex flex-col-reverse md:flex-row justify-center items-center gap-0 md:gap-16">
@@ -101,50 +117,50 @@
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
                 <!-- Second Row -->
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
             <div class="flex flex-col justify-center items-center">
                 <img src="./assets/sample-flower-image.png" alt="Beautiful Flower">
                 <h3 class="mt-[1.875rem] text-[#111111] text-[1.375rem] font-medium">Lily Blossom</h3>
                 <h3 class="text-[#111111] text-[1.375rem] font-bold">20 USD</h3>
-                <button class="w-full h-[3.125rem] mt-[1.875rem] bg-[#E95A08] text-[#FFFFFF] text-base font-semibold">ADD TO CART</button>
+                <button class="add-to-cart-button">ADD TO CART</button>
             </div>
         </div>
     </section>
@@ -190,7 +206,7 @@
         </div>
         <div class="inter flex w-[20.0625rem] md:w-[51.875rem] h-[3.125rem] border-none overflow-hidden">
             <input type="email" placeholder="Write email" class="flex-grow px-4 text-black/50 placeholder-black/50 bg-white focus:outline-none"/>
-            <button class="w-[6.4375rem] md:w-[11.625rem] h-[3.125rem] bg-[#E95A08] text-[#FFFFFF] text-[0.8rem] md:text-base font-semibold">Subscribe</button>
+            <button class="w-[6.4375rem] md:w-[11.625rem] h-[3.125rem] bg-[#E95A08] text-[#FFFFFF] text-[0.7rem] md:text-base font-semibold">Subscribe</button>
         </div>
     </section>
     <footer class="inter mb-[3.125rem] ml-5 md:ml-auto mr-[0.875rem] md:mr-auto h-[54.0625rem] md:h-[21.75rem] flex flex-col md:flex-row justify-evenly">
